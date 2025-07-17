@@ -1,0 +1,30 @@
+.base_btn {
+  border-radius: 200px;
+  padding: 12px 24px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 1px;
+  &_primary {
+    background: #121212;
+    color: #fff;
+  }
+  &_secondary {
+    background: #fff;
+    color: #121212;
+    border: 1px solid #ddd;
+  }
+  &_outline {
+    background: transparent;
+    color: #121212;
+    border: 1px solid #ddd;
+  }
+  &_text {
+    background: transparent;
+    color: #121212;
+    border: none;
+  }
+}
