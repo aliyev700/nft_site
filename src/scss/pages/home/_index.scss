@@ -2,7 +2,7 @@ main {
   .container1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
     .item1 {
       display: flex;
       flex-direction: column;
@@ -31,6 +31,7 @@ main {
         font-style: normal;
       }
 
+    
       button {
         color: white;
         width: 160px;
@@ -50,6 +51,7 @@ main {
       position: relative;
       border-radius: 50px;
       margin-top: 15px;
+      margin-left: 255px;
     }
 
     .img2 {
@@ -69,139 +71,216 @@ main {
       border-radius: 50px;
     }
 
-    .img4{
+    
+
+    .img4 {
       position: absolute;
       margin-left: 680px;
       margin-top: 250px;
     }
-    .img5{
-
+    .img5 {
       position: absolute;
       margin-left: 710px;
       margin-top: 275px;
     }
 
-    h4{
+    h4 {
       position: absolute;
       margin-left: 750px;
       margin-top: 30px;
       font-family: $base_font;
     }
 
-    h5{
+    h5 {
       position: absolute;
       margin-left: 845px;
       margin-top: 50px;
       font-family: $base_font;
-
     }
   }
 
-
-  .container2{
-    
-
+  .container2 {
     height: 350px;
-    
+
     margin-top: 200px;
     display: flex;
     flex-direction: row;
     gap: 30px;
 
     justify-content: space-between;
-    .card1{
+    .card1 {
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
-    h1{
+    h1 {
       margin-top: 20px;
       font-family: $base_font;
       font-size: 28px;
     }
-    h5{
+    h5 {
       font-size: 26px;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     }
   }
 
-  .container3{
+  .container3 {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    .card2{
+    height: 500px;
+    .card2 {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      .item3{
+      .item3 {
         width: 430px;
         display: flex;
         gap: 10px;
-        h4{
+        h4 {
           margin-top: 16px;
-
-
         }
-        .img6{
-
+        .img6 {
           width: 50px;
           height: 50px;
-         
         }
       }
     }
-    .container4{
-       display: flex;
-       flex-direction: column;
-    justify-content: space-between;
-     
+    .container4 {
+      display: flex;
+      flex-direction: column;
 
-      .card3{
+      width: 300px;
+      gap: 30px;
+      height: 500px;
+
+      .card4 {
         display: flex;
         flex-direction: row;
         gap: 10px;
-       
-          width: 430px;
+
+        .item4 {
           display: flex;
-          gap: 10px;
-          h4{
+          flex-direction: column;
+          gap: 5px;
+
+          h4 {
             margin-top: 16px;
-      
-      
           }
-          .img6{
-      
-            width: 50px;
-            height: 50px;
-           
-          
+          .img6 {
+            width: 30px;
+            height: 30px;
+          }
+          button {
+            margin-top: 20px;
+
+            color: white;
+            width: 100px;
+            height: 40px;
+
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 60px;
+            background: #3d00b7;
+            display: inline-flex;
+            padding: 8px 10px;
+          }
         }
       }
-      
-      .card4{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-       
-          width: 430px;
-          display: flex;
-          gap: 10px;
-          h4{
-            margin-top: 16px;
-      
-      
-          }
-          .img6{
-      
-            width: 50px;
-            height: 50px;
-           
-          
-        }
-      }
-    
     }
 
+    .divider {
+      width: 10px;
+      background: #ececec;
+
+      height: 500px;
+    }
+
+    .container5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 30px;
+      padding: auto;
+      h4 {
+        color: #000;
+        font-family: $base_font;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      p {
+        color: #3d00b7;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .item5 {
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 20px;
+        h5 {
+          color: #000;
+          text-align: center;
+          font-family: "DM Sans";
+          font-size: 24px;
+          font-style: normal;
+          margin-top: 17px;
+          padding-right: 33px;
+        }
+        img {
+          width: 60px;
+          height: 60px;
+          flex-shrink: 0;
+          border: 1px solid black;
+          box-sizing: border-box;
+          border-radius: 100px;
+          position: relative;
+        }
+        svg {
+          position: absolute;
+          margin-left: 79px;
+        }
+
+        .logo2 {
+          margin-top: 17px;
+       
+          margin-left: 20px;
+          background-color: white;
+          border: none;
+          width: 15px;
+          height: 24px;
+          flex-shrink: 0;
+        }
+
+        h4 {
+          margin-top: 25px;
+          margin-right: 5px;
+          color: #636363;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+        }
+
+        h3{
+          margin-top: 21px;
+          margin-left: 32px;
+
+          color: #14C8B0;
+text-align: right;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+
+
+        }
+
+       
+      }
+    }
   }
 }
